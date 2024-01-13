@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px; /* margen interior dentro de una caja */
+}
+
+body{
+    background-color: #131313;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#container {   /* id no se puede repetir */
+    /* width: 70%; */
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid whitesmoke
+}
+
+header /* nombre unico que aplica a todos */{
+    background-color: #2b2b2b; /* fondo de la página */
+    color: aliceblue; /* color del texto */
+    height: 100px; /* altura */
+    width: 100%; /* anchura */
+    margin: 0px; /* margen del contenido */
+    /* text-align: center; */ /* centra texto */
+    line-height: 100px; /* centrar la altura */
+    border-top: 3px white; /* borde de arriba */
+    border-bottom: 3px dashed white; /* borde de abajo */
+    border-left: 12px  white; /* borde de la izqueirda */
+    border-right: 16px  white; /* borde de la derecha */
+}
+
+nav ul li a {
+    color: aliceblue;
+    float: left;
+}
