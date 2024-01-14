@@ -30,7 +30,7 @@ header /* nombre unico que aplica a todos */{
     border-right: 16px  white; /* borde de la derecha */
 }
 
-nav ul li a {
+nav ul li {
     color: aliceblue;
     float: left;
 }
