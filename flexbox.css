@@ -1,0 +1,27 @@
+body{
+    background-color:black;
+    color: aliceblue;
+}
+
+.flex-container {
+    border: 15px solid #eeeeee; 
+    background-color: #0088cc;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px; /* centrar altura de texto en box */
+    text-align: center; /* centrar ancho de texto en box */
+    margin: 5px;
+}
+
+
