@@ -8,7 +8,11 @@ body{
     background-color: #0088cc;
     padding: 20px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: 600px;
 }
 
 .box {
@@ -17,11 +21,20 @@ body{
     color:black;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    width: 120px;
-    height: 120px;
-    line-height: 120px; /* centrar altura de texto en box */
+    width: 200px;
+    line-height: 200px; /* centrar altura de texto en box */
     text-align: center; /* centrar ancho de texto en box */
     margin: 5px;
 }
 
+.b1{
+    background-color:darkkhaki ;
+}
 
+.b2{
+    background-color:lightgreen
+}
+
+.b3{
+    background-color:indianred
+}
