@@ -28,13 +28,21 @@ body{
 }
 
 .b1{
-    background-color:darkkhaki ;
+    background-color:darkkhaki;
+    order: 3;
+    flex-grow: 1;
 }
 
 .b2{
-    background-color:lightgreen
+    background-color:lightgreen;
+    order: 1;
+    flex-grow: 1;
+    flex-basis: 50%
+
 }
 
 .b3{
-    background-color:indianred
+    background-color:indianred;
+    order: 2;
+    flex-grow: 1;
 }
