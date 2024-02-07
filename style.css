@@ -34,7 +34,6 @@ header /* nombre unico que aplica a todos */{
 nav{
     background: #0088cc;
     height: 40px;
-    line-height: center; /* centrar la altura */
 }
 
 nav ul li {
