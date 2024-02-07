@@ -15,7 +15,8 @@ altura = 180;
 let concatenacion = nombre + " " + Seidel; 
 
 //Seleccionar elementos de la página
-let datos =document.querySelector("#datos")
+let datos = document.querySelector("#datos")}
+datos.innerhtml = 
 
 //mostrar por consola
 console.log(nombre);
